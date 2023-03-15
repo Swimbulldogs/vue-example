@@ -9,31 +9,31 @@ export default {
                     hotdog: "default"
                 },
                 {
-                    src: "https://images.squarespace-cdn.com/content/v1/5dd8630d09ab5908e35b35a0/1575408711651-9RQZJE8ZI0BV3Y1CV0LN/hot+dog+wiht+must.jpg?format=1000w",
-                    hotdog: "mustard"
+                    src: "https://www.agefotostock.com/age/en/details-photo/hot-dog-with-relish-onion-ketchup-mustard/SFD-12991405",
+                    hotdog: "relish"
                 },
                 {
-                    src: "https://images.squarespace-cdn.com/content/v1/5dd8630d09ab5908e35b35a0/1582497960940-IAE86F3OGQKE0D19GGYA/ketchup+dog.jpg?format=1000w",
+                    src: "https://www.pinterest.com/pin/761038037015424106/",
+                    hotdog: "whipped cream"
+                },
+                {
+                    src: "https://juliassimplysouthern.com/2014/05/julias-southern-hot-dog-chili-1.html",
+                    hotdog: "meat on hotdog"
+                },
+                {
+                    src: "https://www.seriouseats.com/grilled-hot-dogs-with-sauerkraut-recipe",
+                    hotdog: "sauerkraut"
+                },
+                {
+                    src: "https://www.thrillist.com/eat/nation/ketchup-on-hot-dogs-best-toppings",
                     hotdog: "ketchup"
                 },
                 {
-                    src: "https://images.squarespace-cdn.com/content/v1/5dd8630d09ab5908e35b35a0/1586969319681-4OLWCUAYUSSWHGES6IOY/sprinkle+dog.jpg?format=1000w",
-                    hotdog: "sprinkle"
-                },
-                {
-                    src: "https://images.squarespace-cdn.com/content/v1/5dd8630d09ab5908e35b35a0/1603992035188-Y4LE9KCNN2IDIKG6OASN/hat+dog.png?format=1000w",
-                    hotdog: "hat"
-                },
-                {
-                    src: "https://images.squarespace-cdn.com/content/v1/5dd8630d09ab5908e35b35a0/1590525011183-J6RNSXLQT2BZV22F5I6V/ball+dog.jpg?format=1000w",
-                    hotdog: "basketball"
-                },
-                {
-                    src: "https://images.squarespace-cdn.com/content/v1/5dd8630d09ab5908e35b35a0/1593362109648-FYSE9T1HR5KEPVE7O9MN/nacho+dog.jpg?format=1000w",
-                    hotdog: "nachos"
+                    src: "https://www.foodnetwork.com/recipes/bobby-flay/grilled-link-hot-dogs-with-homemade-pickle-relish-recipe-1942988",
+                    hotdog: "pickles"
                 }
             ];
-            const res = otherDogs.find(h => h.hotdog == this.hotdog);
+            const res = otherDogs.find(x => x.hotdog == this.hotdog);
             console.log(res);
         return {
             hotdog: this.hotdog,
